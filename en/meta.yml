@@ -1,0 +1,10 @@
+title: generic-python-requests
+hero_image: images/banner.png
+description: generic-python-requests description
+original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+theme: cc-prototype
+duration: 1 # 1, 2 or 3
+published: false
+ingredient: false
+steps:
+  - title: Step one
