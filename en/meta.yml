@@ -1,4 +1,4 @@
-title: generic-python-requests
+title: Fetching web pages with requests
 hero_image: images/banner.png
 description: generic-python-requests description
 original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
@@ -7,4 +7,4 @@ duration: 1 # 1, 2 or 3
 published: false
 ingredient: false
 steps:
-  - title: Step one
+  - title: Fetching web pages with requests

@@ -36,7 +36,7 @@ r = requests.get(url)
 
 - This is an HTTP response code. Anything beginning with a `2` means **success**. `200` specifically means **OK**. 
 
-- To get the actual content of the page, you can use `r.content`
+- To get the actual content of the page, you can use `r.text`
 
 - To store this in your Python program, you could do something like this:
 
@@ -44,6 +44,15 @@ r = requests.get(url)
 import requests
 url = "https://www.raspberrypi.org"
 r = requests.get(url)
-data = r.content
+data = r.text
 ```
 
+- Often, if you're using a website to get data, the data will be in **JSON** format. You can easily convert this into a Python dictionary by using `r.json()`, as shown below.
+
+```python
+```python
+import requests
+url = "https://www.raspberrypi.org"
+r = requests.get(url)
+data = r.json()
+```
