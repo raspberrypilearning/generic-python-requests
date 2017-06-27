@@ -1,5 +1,3 @@
-## Fetching web-pages with requests
-
 Sometimes you need to fetch data from a website. This could be data that has been provided by a web API, or it might just be the **HTML** from the web-page that you need. Either way, the Python module called `requests` makes this task very easy.
 
 - To begin, open up IDLE or your preferred programming environment and create a new file.
