@@ -2,20 +2,20 @@ Sometimes you need to fetch data from a website. This could be data that has bee
 
 - To begin, open up IDLE or your preferred programming environment and create a new file.
 
-- The first thing to do is import the module.
+- First, import the module.
 
 	```python
 	import requests
 	```
 
-- Now you can create a variable that's value will be the URL that you want to fetch. In this example, you are going to fetch the Raspberry Pi homepage.
+- Create a variable that stores the URL from which you want to fetch data. In this example, you are going to fetch the Raspberry Pi homepage.
 
 	```python
 	import requests
 	url = "https://www.raspberrypi.org"
 	```
 
-- Now you need to tell your program to fetch the web-page.
+- Next, tell your program to fetch the web page and store it in a variable.
 
 	```python
 	import requests
@@ -23,20 +23,18 @@ Sometimes you need to fetch data from a website. This could be data that has bee
 	r = requests.get(url)
 	```
 
-- `r` now holds a lot of information. You can have a look at what it contains by running your program and then examining r in the Python shell.
+- Now run your program. `r` will hold a lot of information. You can examine it in the Python shell using the instructions below.
 
-- By typing `r` you should see something like this:
+- When you type `r`, you should see something like this:
 
 	```python
 	>>> r
 	<Response [200]>
 	```
 
-- This is an HTTP response code. Anything beginning with a `2` means **success**. `200` specifically means **OK**. 
+- This is an **HTTP response code**. Anything beginning with a `2` means 'success', i.e. fetching has been successful. `200` specifically means 'OK'. 
 
-- To get the actual content of the page, you can use `r.text`
-
-- To store this in your Python program, you could do something like this:
+- To get the actual content of the page, you can use `r.text`. To store this data in your program, you could do something like this:
 
 	```python
 	import requests
@@ -45,7 +43,7 @@ Sometimes you need to fetch data from a website. This could be data that has bee
 	data = r.text
 	```
 
-- Often, if you're using a website to get data, the data will be in **JSON** format. You can easily convert this into a Python dictionary by using `r.json()`, as shown below.
+- Often, the data you get from a website will be in **JSON** format. You can easily convert this into a Python dictionary by using `r.json()`, as shown below.
 
 	```python
 	import requests
