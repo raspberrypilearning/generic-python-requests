@@ -1,6 +1,6 @@
 title: Fetching web pages with requests
 hero_image: images/banner.png
-description: generic-python-requests description
+description: Fetching data from web pages using the Python module requests
 original_url:
 theme: cc-prototype
 duration: 1
