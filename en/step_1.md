@@ -1,6 +1,6 @@
-Sometimes you need to fetch data from a website. This could be data that has been provided by a web API, or it might just be the **HTML** from the web page. Either way, the Python module `requests` makes this task very easy.
+Sometimes you need to fetch data from a website. This could be data that has been provided by a web API, or it might just be the **HTML** code of the web page. Either way, the Python module `requests` makes this task very easy.
 
-- To begin, open up IDLE or your preferred programming environment and create a new file.
+- Open up IDLE or your preferred programming environment and create a new file.
 
 - First, import the module.
 
@@ -15,7 +15,7 @@ Sometimes you need to fetch data from a website. This could be data that has bee
 	url = "https://www.raspberrypi.org"
 	```
 
-- Next, tell your program to fetch the web page and store it in a variable.
+- Next, tell your program to fetch the web page and store it in a variable. In this example, we're calling it `r`.
 
 	```python
 	import requests
@@ -34,7 +34,7 @@ Sometimes you need to fetch data from a website. This could be data that has bee
 
 - This is an **HTTP response code**. Anything beginning with a `2` means 'success', i.e. fetching has been successful. `200` specifically means 'OK'. 
 
-- To get the actual content of the page, you can use `r.text`. To store this data in your program, you could do something like this:
+- To get the actual content of the page, you can use `r.text`. To store this content, you could do something like the following:
 
 	```python
 	import requests
