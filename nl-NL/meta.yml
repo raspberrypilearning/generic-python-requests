@@ -1,0 +1,14 @@
+---
+title: Webpagina's met verzoeken ophalen
+hero_image: images/banner.png
+description: Gegevens ophalen van webpagina's met behulp van de Python-module requests
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: "python"
+steps:
+  - title: Webpagina's met verzoeken ophalen
